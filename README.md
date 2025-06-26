@@ -72,7 +72,7 @@ Example request:
 
 ## Why I Built This
 
-I built Game Hint AI to combine my passions for gaming and computer science. Instead of searching forums or watching long videos, players can now get help instantly using AI. I created both the backend and frontend myself to learn full-stack development and deploy a real-world tool.
+I built Game Hint AI to combine my passions for gaming and computer science. Instead of searching forums or watching long videos, players can now get help instantly using AI. I created both the backend and frontend myself to learn full-stack development and deploy a real-world tool. I wanted to publish this on the App Store, but it costs too much money.
 
 ## Technologies Used
 
