@@ -13,6 +13,7 @@ Game Hint AI is an iOS app that uses artificial intelligence to help players get
 - Chat-based AI assistant trained on game logic
 - Chat memory: AI remembers the conversation
 - Native iOS frontend built in SwiftUI
+- Native Android frontend built in Kotlin with Jetpack Compose 
 - Node.js + Express backend hosted on Render
 - Powered by Groq's LLaMA 3 model
 - Secure API key storage with `.env`
@@ -23,11 +24,22 @@ I built Game Hint AI to combine my passions for gaming and computer science. Ins
 
 ## Technologies Used
 
-- SwiftUI – frontend interface
-- Node.js + Express – backend API
-- Groq API – AI chat completion model
-- Render – backend hosting
-- GitHub – version control and visibility
+Backend:
+	•	Node.js – JavaScript runtime for the server
+	•	Express.js – Lightweight web framework for building the API
+	•	Groq API – AI model backend powering game hints
+	•	Render – Cloud hosting for backend deployment
+
+Frontend (iOS):
+	•	SwiftUI – Declarative UI framework for native iOS
+	•	URLSession – Networking for calling the backend API
+	•	Xcode – Development environment for iOS
+
+Frontend (Android):
+	•	Kotlin – Language for building Android apps
+	•	Jetpack Compose – Modern Android UI toolkit
+	•	Coroutines – Asynchronous API calls without blocking UI
+	•	Android Studio – Official IDE for Android development
   
 ## Project Structure
 
