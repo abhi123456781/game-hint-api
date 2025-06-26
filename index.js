@@ -11,10 +11,10 @@ app.get("/", (req, res) => {
 });
 
 app.post("/getHint", async (req, res) => {
-  const { prompt } = req.body;
+  const { messages } = req.body;
 
-  if (!prompt) {
-    return res.status(400).json({ error: "Prompt missing" });
+  if (!messages || !Array.isArray(messages)) {
+    return res.status(400).json({ error: "Prompt missing or invalid message format" });
   }
 
   try {
@@ -26,15 +26,13 @@ app.post("/getHint", async (req, res) => {
       },
       body: JSON.stringify({
         model: "llama3-70b-8192",
-        messages: [
-          { role: "system", content: "You are a helpful video game hint assistant." },
-          { role: "user", content: prompt }
-        ]
+        messages
       })
     });
 
     const data = await response.json();
-    res.json({ result: data.choices?.[0]?.message?.content || "No valid response from Groq." });
+    res.json({ result: data.choices?.[0]?.message?.content || "No valid reply." });
+
   } catch (err) {
     console.error(err);
     res.status(500).json({ error: "Server error" });
