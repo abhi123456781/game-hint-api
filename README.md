@@ -1,6 +1,6 @@
 # Game Hint AI
 
-Game Hint AI is an iOS app that uses artificial intelligence to help players get unstuck in video games. Users can ask questions like "How do I beat the Valkyrie Queen in God of War?" and get intelligent, game-specific hints in real-time.
+Game Hint AI is an iOS app that uses artificial intelligence to help players get unstuck in video games. Users can ask questions like "How do I Unlock the Webgliders " and get intelligent, game-specific hints in real-time.
 
 ## Features
 
@@ -13,7 +13,7 @@ Game Hint AI is an iOS app that uses artificial intelligence to help players get
 
 ## Why I Built This
 
-I built Game Hint AI to combine my passions for gaming and computer science. Instead of searching forums or watching long videos, players can now get help instantly using AI. I created both the backend and frontend myself to learn full-stack development and deploy a real-world tool. I wanted to publish this on the App Store, but it costs too much money.
+I built Game Hint AI to combine my passions for gaming and computer science. Instead of searching forums or watching long videos, players can now get help instantly using AI. I created both the backend and frontend myself to learn full-stack development and deploy a real-world tool. I wanted to publish this on the App Store, but it costs too much money. I am now learning how to make this on Android Studio.
 
 ## Technologies Used
 
@@ -81,18 +81,6 @@ Example request:
   ]
 }
 ```
-
-## Why I Built This
-
-I built Game Hint AI to combine my passions for gaming and computer science. Instead of searching forums or watching long videos, players can now get help instantly using AI. I created both the backend and frontend myself to learn full-stack development and deploy a real-world tool. I wanted to publish this on the App Store, but it costs too much money.
-
-## Technologies Used
-
-- SwiftUI – frontend interface
-- Node.js + Express – backend API
-- Groq API – AI chat completion model
-- Render – backend hosting
-- GitHub – version control and visibility
 
 ## Contact
 
