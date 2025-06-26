@@ -11,6 +11,18 @@ Game Hint AI is an iOS app that uses artificial intelligence to help players get
 - Powered by Groq's LLaMA 3 model
 - Secure API key storage with `.env`
 
+## Why I Built This
+
+I built Game Hint AI to combine my passions for gaming and computer science. Instead of searching forums or watching long videos, players can now get help instantly using AI. I created both the backend and frontend myself to learn full-stack development and deploy a real-world tool. I wanted to publish this on the App Store, but it costs too much money.
+
+## Technologies Used
+
+- SwiftUI – frontend interface
+- Node.js + Express – backend API
+- Groq API – AI chat completion model
+- Render – backend hosting
+- GitHub – version control and visibility
+  
 ## Project Structure
 
 ```
