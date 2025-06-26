@@ -31,13 +31,14 @@ app.post("/getHint", async (req, res) => {
     });
 
     const data = await response.json();
-    res.json({ result: data.choices?.[0]?.message?.content || "No valid reply." });
 
+    res.json({
+      result: data.choices?.[0]?.message?.content ?? "No valid response from AI"
+    });
   } catch (err) {
-    console.error(err);
-    res.status(500).json({ error: "Server error" });
+    console.error("Error calling Groq:", err);
+    res.status(500).json({ error: "Server error while calling Groq" });
   }
 });
-
 const PORT = process.env.PORT || 3000;
 app.listen(PORT, () => console.log(`✅ Server running on port ${PORT}`));
