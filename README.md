@@ -1,6 +1,6 @@
 # Game Hint AI
 
-Game Hint AI is an iOS app that uses artificial intelligence to help players get unstuck in video games. Users can ask questions like "How do I Unlock the Webgliders " and get intelligent, game-specific hints in real-time.
+Game Hint AI is an iOS app that uses artificial intelligence to help players get unstuck in video games. Users can ask questions like "How do I unlock the Webgliders in Marvel Spider-Man 2?" and get intelligent, game-specific hints in real-time.
 
 ## Features
 
