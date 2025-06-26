@@ -18,17 +18,37 @@ app.post("/getHint", async (req, res) => {
   }
 
   try {
-    const response = await fetch("https://api.groq.com/openai/v1/chat/completions", {
-      method: "POST",
-      headers: {
-        "Authorization": `Bearer ${process.env.GROQ_API_KEY}`,
-        "Content-Type": "application/json"
-      },
-      body: JSON.stringify({
-        model: "llama3-70b-8192",
-        messages
-      })
-    });
+    const controller = new AbortController();
+const timeout = setTimeout(() => controller.abort(), 15000); // 15s timeout
+
+try {
+  const response = await fetch("https://api.groq.com/openai/v1/chat/completions", {
+    method: "POST",
+    headers: {
+      "Authorization": `Bearer ${process.env.GROQ_API_KEY}`,
+      "Content-Type": "application/json"
+    },
+    body: JSON.stringify({
+      model: "llama3-70b-8192",
+      messages
+    }),
+    signal: controller.signal
+  });
+
+  clearTimeout(timeout);
+
+  const data = await response.json();
+  console.log("✅ Groq response:", data);
+
+  res.json({
+    result: data.choices?.[0]?.message?.content ?? "No valid response from AI"
+  });
+
+} catch (err) {
+  clearTimeout(timeout);
+  console.error("❌ Error calling Groq:", err);
+  res.status(500).json({ error: "Server error while calling Groq" });
+}
 
     const data = await response.json();
 
