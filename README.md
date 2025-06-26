@@ -73,6 +73,23 @@ Or access the hosted backend: `https://game-hint-api-kiyw.onrender.com/getHint`
 
 2. Run in Simulator or on a real device (you may need to sign with your Apple ID)
 
+### Frontend (Android/Google Play Store)
+
+1. Open the Android project:
+   ```
+   cd android
+   ```
+
+2. Open the project in Android Studio and let it finish syncing.
+
+3. Run the app:
+   - On a real Android phone (with USB debugging enabled), or  
+   - On an emulator (e.g. Pixel 6 API 33)
+
+4. Ask for a game hint in the app — the frontend will send your prompt to the backend API.
+
+ **Coming soon to the Google Play Store** for easier access and installation.
+
 ## How It Works
 
 The app uses Groq's hosted LLaMA 3 model via chat API. It maintains conversation context by sending the full message history to the backend.
