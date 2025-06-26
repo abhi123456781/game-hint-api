@@ -25,21 +25,21 @@ I built Game Hint AI to combine my passions for gaming and computer science. Ins
 ## Technologies Used
 
 Backend:
-	• Node.js – JavaScript runtime for the server
-	• Express.js – Lightweight web framework for building the API
-	• Groq API – AI model backend powering game hints
-	• Render – Cloud hosting for backend deployment
+ - Node.js – JavaScript runtime for the server
+ - Express.js – Lightweight web framework for building the API
+ - Groq API – AI model backend powering game hints
+ - Render – Cloud hosting for backend deployment
 
 Frontend (iOS):
-	• SwiftUI – Declarative UI framework for native iOS
-	• URLSession – Networking for calling the backend API
-	• Xcode – Development environment for iOS
+ - SwiftUI – Declarative UI framework for native iOS
+ - URLSession – Networking for calling the backend API
+ - Xcode – Development environment for iOS
 
 Frontend (Android):
-	• Kotlin – Language for building Android apps
-	• Jetpack Compose – Modern Android UI toolkit
-	• Coroutines – Asynchronous API calls without blocking UI
-	• Android Studio – Official IDE for Android development
+ - Kotlin – Language for building Android apps
+ - Jetpack Compose – Modern Android UI toolkit
+ - Coroutines – Asynchronous API calls without blocking UI
+ - Android Studio – Official IDE for Android development
   
 ## Project Structure
 
