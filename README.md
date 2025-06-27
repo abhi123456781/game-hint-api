@@ -35,8 +35,8 @@ Frontend (iOS):
  - URLSession – Networking for calling the backend API
  - Xcode – Development environment for iOS
 
-<p align="center">
-  <img src="images/IosDemoPicture.png" alt="Apple chat AI" width="300"/>
+<p align="left">
+  <img src="images/IosDemoPicture.png" alt="Apple chat AI" width="100"/>
 </p>
 
 Frontend (Android):
