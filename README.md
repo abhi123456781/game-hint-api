@@ -34,7 +34,10 @@ Frontend (iOS):
  - SwiftUI – Declarative UI framework for native iOS
  - URLSession – Networking for calling the backend API
  - Xcode – Development environment for iOS
-   ![App Screenshot](images/IosDemoPicture.png)
+
+<p align="center">
+  <img src="images/IosDemoPicture.png" alt="Apple chat AI" width="300"/>
+</p>
 
 Frontend (Android):
  - Kotlin – Language for building Android apps
