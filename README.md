@@ -44,7 +44,7 @@ Frontend (Android):
 ## Screenshots
 Apple
 <p align="left">
-  <img src="images/IosDemoPicture.png" alt="Apple chat AI" width="100"/>
+  <img src="images/IosDemoPicture.png" alt="Apple chat AI" width="200"/>
 </p>
 Android
 
