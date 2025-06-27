@@ -31,19 +31,23 @@ Backend:
  - Render – Cloud hosting for backend deployment
 
 Frontend (iOS):
- - SwiftUI – Declarative UI framework for native iOS
+ - SwiftUI – Declarative UI framework for native iOS    
  - URLSession – Networking for calling the backend API
  - Xcode – Development environment for iOS
-
-<p align="left">
-  <img src="images/IosDemoPicture.png" alt="Apple chat AI" width="100"/>
-</p>
 
 Frontend (Android):
  - Kotlin – Language for building Android apps
  - Jetpack Compose – Modern Android UI toolkit
  - Coroutines – Asynchronous API calls without blocking UI
  - Android Studio – Official IDE for Android development
+
+## Screenshots
+Apple
+<p align="left">
+  <img src="images/IosDemoPicture.png" alt="Apple chat AI" width="100"/>
+</p>
+Android
+
   
 ## Project Structure
 
