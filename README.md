@@ -34,6 +34,7 @@ Frontend (iOS):
  - SwiftUI – Declarative UI framework for native iOS
  - URLSession – Networking for calling the backend API
  - Xcode – Development environment for iOS
+   ![App Screenshot](images/IosDemoPicture.png)
 
 Frontend (Android):
  - Kotlin – Language for building Android apps
